@@ -1,5 +1,7 @@
 import { ReactLenis } from "lenis/dist/lenis-react";
 
+import Copy from "./components/Copy";
+
 export default function Page() {
     return (
         <>
@@ -15,15 +17,19 @@ export default function Page() {
                     <img src="/images/img_1.jpg" alt="" />
                 </div>
 
-                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam?</h1>
+                <Copy blockColor="#fe0100">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, veniam?</h1>
+                </Copy>
             </section>
 
             <section className="about">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia accusantium voluptatibus fugit ipsum!
-                    Quasi iure autem inventore nihil nisi velit iste aspernatur et, cumque exercitationem, molestiae
-                    expedita corrupti veniam deserunt?
-                </p>
+                <Copy>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia accusantium voluptatibus fugit
+                        ipsum! Quasi iure autem inventore nihil nisi velit iste aspernatur et, cumque exercitationem,
+                        molestiae expedita corrupti veniam deserunt?
+                    </p>
+                </Copy>
             </section>
 
             <section className="banner-img">
@@ -33,7 +39,9 @@ export default function Page() {
             </section>
 
             <section className="services">
-                <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos ducimus nisi unde.</h1>
+                <Copy>
+                    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos ducimus nisi unde.</h1>
+                </Copy>
             </section>
 
             <section className="banner-img">
@@ -43,11 +51,13 @@ export default function Page() {
             </section>
 
             <section className="cta">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illo facere aliquid cupiditate
-                    quidem consequatur ratione officiis repellat officia aspernatur. At architecto repudiandae tempora
-                    quod, magnam cumque dolorem. Architecto, aspernatur.
-                </p>
+                <Copy blockColor="#fe0100">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illo facere aliquid
+                        cupiditate quidem consequatur ratione officiis repellat officia aspernatur. At architecto
+                        repudiandae tempora quod, magnam cumque dolorem. Architecto, aspernatur.
+                    </p>
+                </Copy>
             </section>
 
             <section className="outro">
@@ -55,7 +65,9 @@ export default function Page() {
                     <img src="/images/img_4.jpg" alt="" />
                 </div>
 
-                <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut odio voluptatem pariatur.</h1>
+                <Copy blockColor="#fe0100">
+                    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut odio voluptatem pariatur.</h1>
+                </Copy>
             </section>
         </>
     );

@@ -81,12 +81,10 @@ section {
     height: 100%;
 }
 
+[data-copy-wrapper],
+section p,
 section h1 {
     width: 75%;
-}
-
-section p {
-    width: 60%;
 }
 
 .intro h1,
@@ -94,11 +92,6 @@ section p {
 .outro h1 {
     position: relative;
     color: var(--tone-500);
-}
-
-section h1 .block-line-wrapper,
-section p .block-line-wrapper {
-    margin: 0 auto;
 }
 
 .block-line-wrapper {
