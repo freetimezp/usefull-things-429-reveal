@@ -381,3 +381,6 @@ document.querySelectorAll("section").forEach((section) => {
 window.addEventListener("load", () => {
     ScrollTrigger.refresh();
 });
+window.addEventListener("resize", () => {
+    ScrollTrigger.refresh();
+});
