@@ -180,7 +180,7 @@ document.fonts.ready.then(() => {
         const imageTl = gsap.timeline({
             scrollTrigger: {
                 trigger: image,
-                start: "top 90%",
+                start: "top 50%",
                 end: "bottom 15%",
                 scrub: 1.4,
             },
@@ -380,9 +380,6 @@ document.fonts.ready.then(() => {
 ======================================== */
 
     window.addEventListener("load", () => {
-        ScrollTrigger.refresh();
-    });
-    window.addEventListener("resize", () => {
         ScrollTrigger.refresh();
     });
 });

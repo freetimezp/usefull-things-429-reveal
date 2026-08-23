@@ -1,0 +1,36 @@
+We create
+<span class="accent">moments</span>
+that refuse to disappear.
+
+
+Darkness is not the absence of light. It is the space
+where ideas begin to breathe, where silence becomes
+visual, and where every detail has a reason to exist.
+
+
+Architecture dissolves into shadow. Light becomes
+the only remaining structure.
+
+
+Every line
+<span class="accent">has weight.</span>
+Every movement
+<span class="accent">has purpose.</span>
+
+
+A fragment suspended between memory, movement, and
+complete silence.
+
+
+Stay curious. Follow the signal. Look closer. The most
+interesting things are usually hidden between the
+obvious.
+
+
+//////css 
+
+
+background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.8'/%3E%3C/svg%3E");
+
+
+
